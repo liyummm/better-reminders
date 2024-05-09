@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7E9617642BECEBB4002407DB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9617632BECEBB4002407DB /* Task.swift */; };
+		7E9617662BECF34B002407DB /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9617652BECF34B002407DB /* TaskGroup.swift */; };
+		7E9617682BECF59D002407DB /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9617672BECF59D002407DB /* TaskSection.swift */; };
+		7E96176A2BECFF07002407DB /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9617692BECFF07002407DB /* SidebarView.swift */; };
+		7E96176C2BECFF14002407DB /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96176B2BECFF14002407DB /* TaskListView.swift */; };
 		7EF3A4292BECCE0E00C712A1 /* better_remindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3A4282BECCE0E00C712A1 /* better_remindersApp.swift */; };
 		7EF3A42B2BECCE0E00C712A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3A42A2BECCE0E00C712A1 /* ContentView.swift */; };
 		7EF3A42D2BECCE1000C712A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3A42C2BECCE1000C712A1 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		7E9617632BECEBB4002407DB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7E9617652BECF34B002407DB /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		7E9617672BECF59D002407DB /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
+		7E9617692BECFF07002407DB /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		7E96176B2BECFF14002407DB /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		7EF3A4252BECCE0E00C712A1 /* better_reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = better_reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF3A4282BECCE0E00C712A1 /* better_remindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = better_remindersApp.swift; sourceTree = "<group>"; };
 		7EF3A42A2BECCE0E00C712A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				7E9617632BECEBB4002407DB /* Task.swift */,
+				7E9617652BECF34B002407DB /* TaskGroup.swift */,
+				7E9617672BECF59D002407DB /* TaskSection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 				7EF3A4362BECCE1000C712A1 /* better_reminders.entitlements */,
 				7EF3A4332BECCE1000C712A1 /* better_reminders.xcdatamodeld */,
 				7EF3A42E2BECCE1000C712A1 /* Preview Content */,
+				7E9617692BECFF07002407DB /* SidebarView.swift */,
+				7E96176B2BECFF14002407DB /* TaskListView.swift */,
 			);
 			path = better_reminders;
 			sourceTree = "<group>";
@@ -276,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9617682BECF59D002407DB /* TaskSection.swift in Sources */,
+				7E96176A2BECFF07002407DB /* SidebarView.swift in Sources */,
+				7E96176C2BECFF14002407DB /* TaskListView.swift in Sources */,
 				7EF3A4322BECCE1000C712A1 /* Persistence.swift in Sources */,
 				7EF3A42B2BECCE0E00C712A1 /* ContentView.swift in Sources */,
+				7E9617662BECF34B002407DB /* TaskGroup.swift in Sources */,
 				7E9617642BECEBB4002407DB /* Task.swift in Sources */,
 				7EF3A4292BECCE0E00C712A1 /* better_remindersApp.swift in Sources */,
 				7EF3A4352BECCE1000C712A1 /* better_reminders.xcdatamodeld in Sources */,
